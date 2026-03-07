@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% block title %}Delivery {{ d.delivery }} — Relatórios de Delivery{% endblock %}
+
+{% block content %}
+<div class="card mb-3">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-center">
+      <h5 class="card-title mb-0">
+        Delivery <span class="mono">{{ d.delivery }}</span>
+      </h5>
+      <div class="btn-group">
+        <a class="btn btn-sm btn-outline-primary" href="{{ url_for('delivery_pdf', delivery_id=d.delivery) }}">Baixar PDF</a>
+        <a class="btn btn-sm btn-outline-secondary" href="{{ url_for('delivery_print', delivery_id=d.delivery) }}">Imprimir</a>
+        <a class="btn btn-sm btn-outline-dark" href="{{ url_for('index') }}">Voltar</a>
+      </div>
+    </div>
+    <hr/>
+
+    <div class="row">
+      <div class="col-md-6">
+        <dl class="row mb-0">
+          <dt class="col-4">Ship to customer</dt>
+          <dd class="col-8">{{ d.ship_to_customer or '' }}</dd>
+
+          <dt class="col-4">Ship to</dt>
+          <dd class="col-8">{{ d.ship_to or '' }}</dd>
+
+          <dt class="col-4">Peso</dt>
+          <dd class="col-8">
+            {% if d.peso is not none %}
+              {{ '%.2f'|format(d.peso) }}
+            {% else %}
+              <span class="text-muted">—</span>
+            {% endif %}
+          </dd>
+
+          <dt class="col-4">Gerado por</dt>
+          <dd class="col-8">{{ d.created_by or '' }}</dd>
+
+          <dt class="col-4">Criado em</dt>
+          <dd class="col-8">
+            {% if d.created_at %}
+              {{ d.created_at.strftime('%d/%m/%Y %H:%M:%S') }}
+            {% else %}
+              <span class="text-muted">—</span>
+            {% endif %}
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+    <h6 class="mt-3">Itens</h6>
+    {% if items %}
+    <div class="table-responsive">
+      <table class="table table-sm table-striped align-middle">
+        <thead>
+          <tr>
+            <th>Item Name</th>
+            <th class="text-end">Requested</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for name, req in items %}
+          <tr>
+            <td class="mono">{{ name }}</td>
+            <td class="text-end">
+              {% if req is number %}
+                {% if req == req|int %}
+                  {{ req|int }}
+                {% else %}
+                  {{ '%.2f'|format(req) }}
+                {% endif %}
+              {% else %}
+                {{ req or '' }}
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+      <p class="text-muted mb-0">Nenhum item encontrado para este delivery.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}

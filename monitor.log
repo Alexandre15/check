@@ -1,0 +1,698 @@
+[2026-03-06 20:41:55] Arquivo de configuração criado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 20:41:55] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 20:41:55] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 20:41:55] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 20:41:55] ERRO: watchdog não está instalado. Instale com: python -m pip install watchdog
+[2026-03-06 20:42:53] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 20:42:53] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 20:42:53] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 20:42:53] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 20:42:53] ERRO: watchdog não está instalado. Instale com: python -m pip install watchdog
+[2026-03-06 20:43:21] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 20:43:21] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 20:43:21] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 20:43:21] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 20:43:21] ERRO: watchdog não está instalado. Instale com: python -m pip install watchdog
+[2026-03-06 20:46:49] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 20:46:49] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 20:46:49] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 20:46:49] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 20:46:49] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-06 20:46:50] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817179.json (deliveries: 1)
+[2026-03-06 20:46:50] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817179.tsv
+[2026-03-06 20:46:51] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817196.json (deliveries: 1)
+[2026-03-06 20:46:51] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817196.tsv
+[2026-03-06 20:46:51] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817198.json (deliveries: 1)
+[2026-03-06 20:46:51] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817198.tsv
+[2026-03-06 20:46:52] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817199.json (deliveries: 1)
+[2026-03-06 20:46:52] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817199.tsv
+[2026-03-06 20:46:52] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819208.json (deliveries: 1)
+[2026-03-06 20:46:52] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819208.tsv
+[2026-03-06 20:46:53] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819209.json (deliveries: 1)
+[2026-03-06 20:46:53] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819209.tsv
+[2026-03-06 20:46:53] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:46:53] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:46:53] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:46:53] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:46:53] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:46:53] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:46:53] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 20:48:43] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:48:44] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817179.json (deliveries: 1)
+[2026-03-06 20:48:44] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817179.tsv
+[2026-03-06 20:48:44] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:48:44] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:48:44] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:48:45] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817196.json (deliveries: 1)
+[2026-03-06 20:48:45] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817196.tsv
+[2026-03-06 20:48:45] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:48:45] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:48:45] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:48:45] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817198.json (deliveries: 1)
+[2026-03-06 20:48:45] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817198.tsv
+[2026-03-06 20:48:45] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:48:45] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:48:45] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:48:46] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817199.json (deliveries: 1)
+[2026-03-06 20:48:46] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817199.tsv
+[2026-03-06 20:48:46] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:48:46] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:48:46] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:48:47] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819208.json (deliveries: 1)
+[2026-03-06 20:48:47] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819208.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:48:47] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:48:47] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819209.json (deliveries: 1)
+[2026-03-06 20:48:47] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819209.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:48:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:48:47] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:49:57] [STOP] Encerrando monitor...
+[2026-03-06 20:50:58] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 20:50:58] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 20:50:58] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 20:50:58] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 20:50:59] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-06 20:50:59] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817179.json (deliveries: 1)
+[2026-03-06 20:50:59] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817179.tsv
+[2026-03-06 20:51:00] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817196.json (deliveries: 1)
+[2026-03-06 20:51:00] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817196.tsv
+[2026-03-06 20:51:00] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817198.json (deliveries: 1)
+[2026-03-06 20:51:00] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817198.tsv
+[2026-03-06 20:51:01] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817199.json (deliveries: 1)
+[2026-03-06 20:51:01] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817199.tsv
+[2026-03-06 20:51:02] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819208.json (deliveries: 1)
+[2026-03-06 20:51:02] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819208.tsv
+[2026-03-06 20:51:02] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819209.json (deliveries: 1)
+[2026-03-06 20:51:02] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819209.tsv
+[2026-03-06 20:51:02] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:51:02] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:51:02] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:51:02] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:51:02] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:51:02] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:51:02] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 20:53:24] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:53:24] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817179.json (deliveries: 1)
+[2026-03-06 20:53:24] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817179.tsv
+[2026-03-06 20:53:24] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:53:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:53:24] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:53:25] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817196.json (deliveries: 1)
+[2026-03-06 20:53:25] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817196.tsv
+[2026-03-06 20:53:25] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:53:25] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:53:25] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:53:25] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817198.json (deliveries: 1)
+[2026-03-06 20:53:25] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817198.tsv
+[2026-03-06 20:53:25] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:53:25] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:53:25] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:53:26] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817199.json (deliveries: 1)
+[2026-03-06 20:53:26] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817199.tsv
+[2026-03-06 20:53:26] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:53:26] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:53:26] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:53:27] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819208.json (deliveries: 1)
+[2026-03-06 20:53:27] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819208.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:53:27] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:53:27] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819209.json (deliveries: 1)
+[2026-03-06 20:53:27] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819209.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 20:53:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 20:53:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 21:02:24] [STOP] Encerrando monitor...
+[2026-03-06 21:02:44] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 21:02:44] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 21:02:44] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 21:02:44] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 21:02:45] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 21:02:45] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-06 21:02:46] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817179.json (deliveries: 1)
+[2026-03-06 21:02:46] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:02:46] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817179.tsv
+[2026-03-06 21:02:46] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817196.json (deliveries: 1)
+[2026-03-06 21:02:46] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:02:46] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817196.tsv
+[2026-03-06 21:02:47] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817198.json (deliveries: 1)
+[2026-03-06 21:02:47] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:02:47] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817198.tsv
+[2026-03-06 21:02:48] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817199.json (deliveries: 1)
+[2026-03-06 21:02:48] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:02:48] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817199.tsv
+[2026-03-06 21:02:48] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819208.json (deliveries: 1)
+[2026-03-06 21:02:48] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:02:48] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819208.tsv
+[2026-03-06 21:02:49] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819209.json (deliveries: 1)
+[2026-03-06 21:02:49] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:02:49] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819209.tsv
+[2026-03-06 21:02:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 21:02:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 21:02:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 21:02:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 21:02:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 21:02:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 21:02:49] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 21:18:19] [STOP] Encerrando monitor...
+[2026-03-06 21:24:52] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 21:24:52] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 21:24:52] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 21:24:52] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 21:24:52] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 21:24:52] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 21:25:14] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 21:25:14] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783533.json (deliveries: 1)
+[2026-03-06 21:25:14] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:14] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783533.tsv
+[2026-03-06 21:25:14] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 21:25:14] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 21:25:14] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 21:25:15] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783532.json (deliveries: 1)
+[2026-03-06 21:25:15] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:15] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783532.tsv
+[2026-03-06 21:25:15] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 21:25:15] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 21:25:15] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 21:25:16] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783529.json (deliveries: 1)
+[2026-03-06 21:25:16] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:16] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783529.tsv
+[2026-03-06 21:25:16] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 21:25:16] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 21:25:16] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 21:25:16] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (deliveries: 1)
+[2026-03-06 21:25:16] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:16] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv
+[2026-03-06 21:25:16] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 21:25:16] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 21:25:16] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 21:25:17] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (deliveries: 1)
+[2026-03-06 21:25:17] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:17] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv
+[2026-03-06 21:25:17] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 21:25:17] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 21:25:17] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 21:25:18] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (deliveries: 1)
+[2026-03-06 21:25:18] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:18] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv
+[2026-03-06 21:25:18] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 21:25:18] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 21:25:18] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789252.tsv
+[2026-03-06 21:25:18] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14789252.json (deliveries: 1)
+[2026-03-06 21:25:18] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:18] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14789252.tsv
+[2026-03-06 21:25:18] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789252.tsv
+[2026-03-06 21:25:18] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789252.tsv
+[2026-03-06 21:25:18] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785522.tsv
+[2026-03-06 21:25:19] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14785522.json (deliveries: 1)
+[2026-03-06 21:25:19] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:19] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14785522.tsv
+[2026-03-06 21:25:19] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785522.tsv
+[2026-03-06 21:25:19] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785522.tsv
+[2026-03-06 21:25:19] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:20] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14785521.json (deliveries: 1)
+[2026-03-06 21:25:20] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:20] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:20] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:20] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:20] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:20] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14785520.json (deliveries: 1)
+[2026-03-06 21:25:20] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:20] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:20] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:20] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:20] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:21] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14788238.json (deliveries: 1)
+[2026-03-06 21:25:21] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:21] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:21] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:21] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:21] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:21] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14788227.json (deliveries: 1)
+[2026-03-06 21:25:21] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:21] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:21] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:21] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:21] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:22] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784590.json (deliveries: 1)
+[2026-03-06 21:25:22] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:22] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:22] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:22] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:22] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:23] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784589.json (deliveries: 1)
+[2026-03-06 21:25:23] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:23] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:23] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:23] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:23] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:23] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784588.json (deliveries: 1)
+[2026-03-06 21:25:23] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:23] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:23] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:23] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:23] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:24] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784587.json (deliveries: 1)
+[2026-03-06 21:25:24] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:24] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:24] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:24] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:25] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784542.json (deliveries: 1)
+[2026-03-06 21:25:25] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:25] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:25] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:25] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:25] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:25] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784541.json (deliveries: 1)
+[2026-03-06 21:25:25] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:25] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:25] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:25] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:25] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784540.tsv
+[2026-03-06 21:25:26] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784540.json (deliveries: 1)
+[2026-03-06 21:25:26] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:26] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784540.tsv
+[2026-03-06 21:25:26] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784540.tsv
+[2026-03-06 21:25:26] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784540.tsv
+[2026-03-06 21:25:26] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783539.tsv
+[2026-03-06 21:25:26] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783539.json (deliveries: 1)
+[2026-03-06 21:25:26] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:26] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783539.tsv
+[2026-03-06 21:25:26] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783539.tsv
+[2026-03-06 21:25:26] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783539.tsv
+[2026-03-06 21:25:26] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783538.tsv
+[2026-03-06 21:25:27] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783538.json (deliveries: 1)
+[2026-03-06 21:25:27] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:27] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783538.tsv
+[2026-03-06 21:25:27] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783538.tsv
+[2026-03-06 21:25:27] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783538.tsv
+[2026-03-06 21:25:27] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:28] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783537.json (deliveries: 1)
+[2026-03-06 21:25:28] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:28] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:28] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:28] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:28] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:28] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783536.json (deliveries: 1)
+[2026-03-06 21:25:28] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:28] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:28] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:28] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:28] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 21:25:29] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783534.json (deliveries: 1)
+[2026-03-06 21:25:29] DB: persistidos 1 delivery(ies).
+[2026-03-06 21:25:29] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783534.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785522.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785522.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789252.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789252.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783538.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783538.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784540.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784540.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783539.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783539.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 21:25:29] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 21:25:29] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 21:32:40] [STOP] Encerrando monitor...
+[2026-03-06 22:09:43] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 22:09:43] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 22:09:43] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 22:09:43] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:09:44] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 22:09:44] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:09:51] [STOP] Encerrando monitor...
+[2026-03-06 22:10:36] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 22:10:36] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 22:10:36] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 22:10:36] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:10:37] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 22:10:37] [INFO] Processando 60 TSV(s) existentes...
+[2026-03-06 22:10:38] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (deliveries: 1)
+[2026-03-06 22:10:38] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:38] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv
+[2026-03-06 22:10:38] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (deliveries: 1)
+[2026-03-06 22:10:38] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:38] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv
+[2026-03-06 22:10:39] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (deliveries: 1)
+[2026-03-06 22:10:39] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:39] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv
+[2026-03-06 22:10:40] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783529.json (deliveries: 1)
+[2026-03-06 22:10:40] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:40] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783529.tsv
+[2026-03-06 22:10:40] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783532.json (deliveries: 1)
+[2026-03-06 22:10:40] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:40] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783532.tsv
+[2026-03-06 22:10:41] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783533.json (deliveries: 1)
+[2026-03-06 22:10:41] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:41] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783533.tsv
+[2026-03-06 22:10:41] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783534.json (deliveries: 1)
+[2026-03-06 22:10:41] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:41] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783534.tsv
+[2026-03-06 22:10:42] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783536.json (deliveries: 1)
+[2026-03-06 22:10:42] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:42] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783536.tsv
+[2026-03-06 22:10:43] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783537.json (deliveries: 1)
+[2026-03-06 22:10:43] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:43] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783537.tsv
+[2026-03-06 22:10:43] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783538.json (deliveries: 1)
+[2026-03-06 22:10:43] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:43] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783538.tsv
+[2026-03-06 22:10:44] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783539.json (deliveries: 1)
+[2026-03-06 22:10:44] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:44] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783539.tsv
+[2026-03-06 22:10:45] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784540.json (deliveries: 1)
+[2026-03-06 22:10:45] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:45] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784540.tsv
+[2026-03-06 22:10:45] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784541.json (deliveries: 1)
+[2026-03-06 22:10:45] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:45] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784541.tsv
+[2026-03-06 22:10:46] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784542.json (deliveries: 1)
+[2026-03-06 22:10:46] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:46] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784542.tsv
+[2026-03-06 22:10:46] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784587.json (deliveries: 1)
+[2026-03-06 22:10:46] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:46] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784587.tsv
+[2026-03-06 22:10:47] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784588.json (deliveries: 1)
+[2026-03-06 22:10:47] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:47] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784588.tsv
+[2026-03-06 22:10:48] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784589.json (deliveries: 1)
+[2026-03-06 22:10:48] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:48] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784589.tsv
+[2026-03-06 22:10:48] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14784590.json (deliveries: 1)
+[2026-03-06 22:10:48] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:48] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14784590.tsv
+[2026-03-06 22:10:49] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14785520.json (deliveries: 1)
+[2026-03-06 22:10:49] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:49] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14785520.tsv
+[2026-03-06 22:10:50] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14785521.json (deliveries: 1)
+[2026-03-06 22:10:50] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:50] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14785521.tsv
+[2026-03-06 22:10:50] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14785522.json (deliveries: 1)
+[2026-03-06 22:10:50] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:50] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14785522.tsv
+[2026-03-06 22:10:51] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14788227.json (deliveries: 1)
+[2026-03-06 22:10:51] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:51] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14788227.tsv
+[2026-03-06 22:10:52] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14788238.json (deliveries: 1)
+[2026-03-06 22:10:52] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:52] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14788238.tsv
+[2026-03-06 22:10:53] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14789252.json (deliveries: 1)
+[2026-03-06 22:10:53] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:53] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14789252.tsv
+[2026-03-06 22:10:53] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817179.json (deliveries: 1)
+[2026-03-06 22:10:53] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:53] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817179.tsv
+[2026-03-06 22:10:54] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817196.json (deliveries: 1)
+[2026-03-06 22:10:54] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:54] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817196.tsv
+[2026-03-06 22:10:54] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817198.json (deliveries: 1)
+[2026-03-06 22:10:54] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:54] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817198.tsv
+[2026-03-06 22:10:55] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14817199.json (deliveries: 1)
+[2026-03-06 22:10:55] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:55] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14817199.tsv
+[2026-03-06 22:10:56] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819208.json (deliveries: 1)
+[2026-03-06 22:10:56] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:56] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819208.tsv
+[2026-03-06 22:10:56] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14819209.json (deliveries: 1)
+[2026-03-06 22:10:56] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:10:56] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14819209.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783534.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783536.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783537.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783538.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783539.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784540.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784541.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784542.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784587.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784588.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784589.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14784590.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785520.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785521.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14785522.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788227.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14788238.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789252.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817179.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817196.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817198.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14817199.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819208.tsv
+[2026-03-06 22:10:56] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14819209.tsv
+[2026-03-06 22:10:56] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:20:50] [STOP] Encerrando monitor...
+[2026-03-06 22:21:33] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 22:21:33] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 22:21:33] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 22:21:33] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:21:33] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 22:21:33] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-06 22:21:34] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (deliveries: 1)
+[2026-03-06 22:21:34] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:21:34] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv
+[2026-03-06 22:21:35] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (deliveries: 1)
+[2026-03-06 22:21:35] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:21:35] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv
+[2026-03-06 22:21:35] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (deliveries: 1)
+[2026-03-06 22:21:35] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:21:35] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv
+[2026-03-06 22:21:36] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783529.json (deliveries: 1)
+[2026-03-06 22:21:36] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:21:36] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783529.tsv
+[2026-03-06 22:21:36] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783532.json (deliveries: 1)
+[2026-03-06 22:21:36] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:21:36] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783532.tsv
+[2026-03-06 22:21:37] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783533.json (deliveries: 1)
+[2026-03-06 22:21:37] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:21:37] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783533.tsv
+[2026-03-06 22:21:37] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 22:21:37] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 22:21:37] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 22:21:37] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 22:21:37] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 22:21:37] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 22:21:37] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:23:25] [STOP] Encerrando monitor...
+[2026-03-06 22:24:28] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 22:24:28] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 22:24:28] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 22:24:28] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:24:29] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 22:24:29] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-06 22:24:29] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (deliveries: 1)
+[2026-03-06 22:24:29] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:24:29] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv
+[2026-03-06 22:24:30] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (deliveries: 1)
+[2026-03-06 22:24:30] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:24:30] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv
+[2026-03-06 22:24:31] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (deliveries: 1)
+[2026-03-06 22:24:31] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:24:31] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv
+[2026-03-06 22:24:31] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783529.json (deliveries: 1)
+[2026-03-06 22:24:31] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:24:31] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783529.tsv
+[2026-03-06 22:24:32] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783532.json (deliveries: 1)
+[2026-03-06 22:24:32] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:24:32] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783532.tsv
+[2026-03-06 22:24:33] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783533.json (deliveries: 1)
+[2026-03-06 22:24:33] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:24:33] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783533.tsv
+[2026-03-06 22:24:33] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 22:24:33] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 22:24:33] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 22:24:33] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 22:24:33] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 22:24:33] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 22:24:33] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:35:11] [STOP] Encerrando monitor...
+[2026-03-06 22:36:05] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 22:36:05] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 22:36:05] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 22:36:05] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:36:05] DB: coluna 'created_by' adicionada em 'deliveries'.
+[2026-03-06 22:36:05] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 22:36:05] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-06 22:36:06] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (deliveries: 1)
+[2026-03-06 22:36:06] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:36:06] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv
+[2026-03-06 22:36:07] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (deliveries: 1)
+[2026-03-06 22:36:07] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:36:07] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv
+[2026-03-06 22:36:07] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (deliveries: 1)
+[2026-03-06 22:36:07] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:36:07] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv
+[2026-03-06 22:36:08] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783529.json (deliveries: 1)
+[2026-03-06 22:36:08] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:36:08] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783529.tsv
+[2026-03-06 22:36:08] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783532.json (deliveries: 1)
+[2026-03-06 22:36:08] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:36:08] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783532.tsv
+[2026-03-06 22:36:09] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783533.json (deliveries: 1)
+[2026-03-06 22:36:09] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:36:09] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783533.tsv
+[2026-03-06 22:36:09] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 22:36:09] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 22:36:09] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 22:36:09] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 22:36:09] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 22:36:09] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 22:36:09] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:50:12] [STOP] Encerrando monitor...
+[2026-03-06 22:50:45] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-06 22:50:45] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada
+[2026-03-06 22:50:45] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida
+[2026-03-06 22:50:45] Pasta OK: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:50:45] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-06 22:50:45] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-06 22:50:46] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (deliveries: 1)
+[2026-03-06 22:50:46] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:50:46] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv
+[2026-03-06 22:50:47] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (deliveries: 1)
+[2026-03-06 22:50:47] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:50:47] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv
+[2026-03-06 22:50:47] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (deliveries: 1)
+[2026-03-06 22:50:47] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:50:47] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv
+[2026-03-06 22:50:48] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783529.json (deliveries: 1)
+[2026-03-06 22:50:48] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:50:48] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783529.tsv
+[2026-03-06 22:50:49] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783532.json (deliveries: 1)
+[2026-03-06 22:50:49] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:50:49] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783532.tsv
+[2026-03-06 22:50:49] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783533.json (deliveries: 1)
+[2026-03-06 22:50:49] DB: persistidos 1 delivery(ies).
+[2026-03-06 22:50:49] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783533.tsv
+[2026-03-06 22:50:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-06 22:50:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-06 22:50:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-06 22:50:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-06 22:50:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-06 22:50:49] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-06 22:50:49] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-06 22:53:03] [STOP] Encerrando monitor...
+[2026-03-07 00:34:20] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-07 00:34:21] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db e tabelas prontas.
+[2026-03-07 00:34:21] [INFO] Processando 12 TSV(s) existentes...
+[2026-03-07 00:34:21] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (deliveries: 1)
+[2026-03-07 00:34:21] DB: persistidos 1 delivery(ies).
+[2026-03-07 00:34:21] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv
+[2026-03-07 00:34:22] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (deliveries: 1)
+[2026-03-07 00:34:22] DB: persistidos 1 delivery(ies).
+[2026-03-07 00:34:22] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv
+[2026-03-07 00:34:23] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (deliveries: 1)
+[2026-03-07 00:34:23] DB: persistidos 1 delivery(ies).
+[2026-03-07 00:34:23] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv
+[2026-03-07 00:34:23] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783529.json (deliveries: 1)
+[2026-03-07 00:34:23] DB: persistidos 1 delivery(ies).
+[2026-03-07 00:34:23] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783529.tsv
+[2026-03-07 00:34:24] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783532.json (deliveries: 1)
+[2026-03-07 00:34:24] DB: persistidos 1 delivery(ies).
+[2026-03-07 00:34:24] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783532.tsv
+[2026-03-07 00:34:24] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783533.json (deliveries: 1)
+[2026-03-07 00:34:24] DB: persistidos 1 delivery(ies).
+[2026-03-07 00:34:24] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783533.tsv
+[2026-03-07 00:34:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-07 00:34:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-07 00:34:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-07 00:34:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783529.tsv
+[2026-03-07 00:34:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783532.tsv
+[2026-03-07 00:34:24] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783533.tsv
+[2026-03-07 00:34:24] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada  (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-07 00:36:37] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789279.tsv
+[2026-03-07 00:36:37] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14789279.json (deliveries: 1)
+[2026-03-07 00:36:37] DB: persistidos 1 delivery(ies).
+[2026-03-07 00:36:37] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14789279.tsv
+[2026-03-07 00:36:37] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789279.tsv
+[2026-03-07 00:36:37] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14789279.tsv

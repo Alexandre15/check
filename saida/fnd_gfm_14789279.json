@@ -1,0 +1,16 @@
+[
+  {
+    "delivery": "123690356",
+    "ship to customer": "JOHN DEERE BRASIL LTDA",
+    "ship to": "72515 : VIA OESTE, ESQUINA VIA II-S/N-MONTENEGRO-RS-95780000-BR",
+    "items": [
+      {
+        "item Name": "R220591",
+        "Requested": 8
+      }
+    ],
+    "peso": null,
+    "created_by": "E0616587",
+    "created_at": "2026-03-07 00:36:37"
+  }
+]

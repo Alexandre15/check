@@ -1,0 +1,10 @@
+{
+  "SRC": "C:\\Users\\e0616587\\OneDrive - Eaton\\Documents\\CKL\\check\\entrada",
+  "OUT": "C:\\Users\\e0616587\\OneDrive - Eaton\\Documents\\CKL\\check\\saida",
+  "PROCESSED": "C:\\Users\\e0616587\\OneDrive - Eaton\\Documents\\CKL\\check\\processados",
+  "MERGE_ITEMS": true,
+  "RECURSIVE": false,
+  "PROCESS_EXISTING": true,
+  "INDENT": 2,
+  "PESO_COL": null
+}

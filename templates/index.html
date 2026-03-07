@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %}Deliveries — Relatórios de Delivery{% endblock %}
+
+{% block content %}
+<div class="card">
+  <div class="card-body">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5 class="card-title mb-0">Deliveries</h5>
+      <a class="btn btn-sm btn-outline-primary" href="{{ url_for('index') }}">Atualizar</a>
+    </div>
+
+    {% if deliveries %}
+    <div class="table-responsive">
+      <table class="table table-sm table-striped align-middle">
+        <thead>
+          <tr>
+            <th>Delivery</th>
+            <th>Ship to customer</th>
+            <th>Ship to</th>
+            <th class="text-end">Itens</th>
+            <th class="text-end">Peso</th>
+            <th>Gerado por</th>
+            <th>Criado em</th>
+            <th class="text-end">Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+        {# Ordem deve bater com a query: d, ship_to_customer, ship_to, peso, created_by, created_at #}
+        {% for d, ship_to_customer, ship_to, peso, created_by, created_at in deliveries %}
+          <tr>
+            <td class="mono">
+              <a href="{{ url_for('delivery_view', delivery_id=d) }}">{{ d }}</a>
+            </td>
+            <td>{{ ship_to_customer or '' }}</td>
+            <td>{{ ship_to or '' }}</td>
+            <td class="text-end">
+              <span class="badge bg-secondary">{{ counts.get(d, 0) }}</span>
+            </td>
+            <td class="text-end">
+              {% if peso is not none %}
+                {{ '%.2f'|format(peso) }}
+              {% else %}
+                <span class="text-muted">—</span>
+              {% endif %}
+            </td>
+            <td>{{ created_by or '' }}</td>
+            <td>
+              {% if created_at %}
+                {{ created_at.strftime('%d/%m/%Y %H:%M:%S') }}
+              {% else %}
+                <span class="text-muted">—</span>
+              {% endif %}
+            </td>
+            <td class="text-end">
+              <a class="btn btn-sm btn-outline-secondary" href="{{ url_for('delivery_print', delivery_id=d) }}">Imprimir</a>
+            </td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+      <p class="text-muted mb-0">Nenhum delivery encontrado.</p>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
