@@ -2660,3 +2660,58 @@ sqlalchemy.exc.StatementError: (builtins.TypeError) SQLite DateTime type only ac
 [2026-03-11 00:06:44] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14777574.tsv (saved_ok=True)
 [2026-03-11 00:06:44] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14777574.tsv
 [2026-03-11 00:06:44] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-11 00:35:29] [STOP] Encerrando monitor...
+[2026-03-11 15:54:25] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-11 15:54:26] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db; tabelas 'deliveries', 'delivery_items' (e 'shipment_lines' opcional) prontas.
+[2026-03-11 15:54:26] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-11 15:54:45] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-11 15:54:45] [INFO] Parse OK: fnd_gfm_14783520.tsv → 3 linha(s)
+[2026-03-11 15:54:45] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783520.json (linhas: 3)
+[2026-03-11 15:54:45] DB: agregação pronta: deliveries=1 | items=1 | exemplo_delivery=123557254
+[2026-03-11 15:54:45] DB: upsert OK: deliveries_ins=1 | items_ins=1 | deliveries_total=6 | Deliveries(amostra)=123557254
+[2026-03-11 15:54:45] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783520.tsv (saved_ok=True)
+[2026-03-11 15:54:45] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-11 15:54:45] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-11 15:54:45] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-11 15:54:46] [INFO] Parse OK: fnd_gfm_14783527.tsv → 2 linha(s)
+[2026-03-11 15:54:46] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783527.json (linhas: 2)
+[2026-03-11 15:54:46] DB: agregação pronta: deliveries=1 | items=1 | exemplo_delivery=123586346
+[2026-03-11 15:54:46] DB: upsert OK: deliveries_ins=1 | items_ins=1 | deliveries_total=7 | Deliveries(amostra)=123586346
+[2026-03-11 15:54:46] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783527.tsv (saved_ok=True)
+[2026-03-11 15:54:46] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-11 15:54:46] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-11 15:54:46] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-11 15:54:46] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783520.tsv
+[2026-03-11 15:54:46] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-11 15:54:47] [INFO] Parse OK: fnd_gfm_14783528.tsv → 2 linha(s)
+[2026-03-11 15:54:47] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14783528.json (linhas: 2)
+[2026-03-11 15:54:47] DB: agregação pronta: deliveries=1 | items=1 | exemplo_delivery=123586348
+[2026-03-11 15:54:47] DB: upsert OK: deliveries_ins=1 | items_ins=1 | deliveries_total=8 | Deliveries(amostra)=123586348
+[2026-03-11 15:54:47] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14783528.tsv (saved_ok=True)
+[2026-03-11 15:54:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-11 15:54:47] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-11 15:54:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-11 15:54:47] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783527.tsv
+[2026-03-11 15:54:47] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-11 15:54:47] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14783528.tsv
+[2026-03-11 16:17:42] [STOP] Encerrando monitor...
+[2026-03-11 16:58:58] Config carregada de C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\config.json
+[2026-03-11 16:58:59] DB: conectado em sqlite:///C:/Users/e0616587/OneDrive - Eaton/Documents/CKL/check/data/shipments.db; tabelas 'deliveries', 'delivery_items' (e 'shipment_lines' opcional) prontas.
+[2026-03-11 16:58:59] [START] Monitorando: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada (recursive=False) | Saída: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida | Processados: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados
+[2026-03-11 17:00:03] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:03] [WARN] Arquivo não estabilizou: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:03] [EVENT] created: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:03] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:03] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:03] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:04] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:04] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:04] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:04] [INFO] Debounced (ignorado evento repetido): C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:08] [EVENT] modified: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\entrada\fnd_gfm_14827119.tsv
+[2026-03-11 17:00:09] [INFO] Parse OK: fnd_gfm_14827119.tsv → 20 linha(s)
+[2026-03-11 17:00:09] [OK] JSON gerado: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\saida\fnd_gfm_14827119.json (linhas: 20)
+[2026-03-11 17:00:09] DB: agregação pronta: deliveries=1 | items=1 | exemplo_delivery=124663575
+[2026-03-11 17:00:09] DB: upsert OK: deliveries_ins=1 | items_ins=1 | deliveries_total=9 | Deliveries(amostra)=124663575
+[2026-03-11 17:00:09] [OK] TSV movido para: C:\Users\e0616587\OneDrive - Eaton\Documents\CKL\check\processados\fnd_gfm_14827119.tsv (saved_ok=True)
+[2026-03-11 17:02:13] [STOP] Encerrando monitor...
