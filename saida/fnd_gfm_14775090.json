@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-11 00:06:43",
+  "source_file": "fnd_gfm_14775090.tsv",
+  "lines": [
+    {
+      "delivery": "123459587",
+      "item_name": "10000571",
+      "date_scheduled": "2026-02-13 00:00:00",
+      "requested_qty": 72.0,
+      "ship_to_customer": "EATON LTDA.",
+      "ship_to": "72384 : RUA CLARK-2061-VALINHOS-SP-13279400-BR",
+      "order_number": "5456144",
+      "line_status": "Staged/Pick Confirmed",
+      "next_step": "Ship Confirm/Close Trip Stop",
+      "exceptions": null,
+      "lpn": null,
+      "shipped_qty": 72.0,
+      "backordered_qty": 0.0,
+      "details_required": null,
+      "serial_number": null,
+      "inventory_control": null,
+      "deliver_to": "72384 : RUA CLARK-2061-VALINHOS-SP-13279400-BR",
+      "org_code": "CAT",
+      "move_order_number": "70716943",
+      "move_order_line_number": "1",
+      "raw_checkbox": ".",
+      "data_col": "FGI X",
+      "peso": null,
+      "row_no": 2
+    }
+  ]
+}

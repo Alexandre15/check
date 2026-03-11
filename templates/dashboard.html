@@ -1,0 +1,289 @@
+{% extends 'base.html' %}
+{% block title %}Dashboard — Relatórios de Delivery{% endblock %}
+
+{% block head_extra %}
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <style>
+    .kpi .icon { font-size: 1.1rem; color: var(--brand2); margin-right: .35rem; }
+  </style>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h5 class="mb-0"><i class="bi bi-speedometer2 me-2"></i>Dashboard</h5>
+  <div class="d-flex gap-2">
+    <a class="btn btn-sm btn-outline-secondary btn-pill" href="{{ url_for('index') }}"><i class="bi bi-columns-gap me-1"></i> Início</a>
+    <a class="btn btn-sm btn-gradient btn-pill" href="javascript:location.reload()"><i class="bi bi-arrow-clockwise me-1"></i> Recarregar</a>
+  </div>
+</div>
+
+<form method="get" action="{{ url_for('dashboard') }}" class="card mb-3">
+  <div class="card-body">
+    <div class="row g-2 align-items-end">
+      <div class="col-6 col-md-3">
+        <label class="form-label" for="f-from">De</label>
+        <input id="f-from" name="from" type="date" class="form-control" value="{{ filters.from }}">
+      </div>
+      <div class="col-6 col-md-3">
+        <label class="form-label" for="f-to">Até</label>
+        <input id="f-to" name="to" type="date" class="form-control" value="{{ filters.to }}">
+      </div>
+      <!-- SELECT de Cliente -->
+      <div class="col-12 col-md-4">
+        <label class="form-label" for="f-customer">Cliente</label>
+        <select id="f-customer" name="customer" class="form-select">
+          <option value="" {{ '' == (filters.customer or '') and 'selected' or '' }}>Todos os clientes</option>
+          {% for c in customers %}
+            {% if c %}
+            <option value="{{ c }}" {{ c == (filters.customer or '') and 'selected' or '' }}>{{ c }}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-12 col-md-2 d-grid">
+        <button class="btn btn-gradient btn-pill" type="submit"><i class="bi bi-funnel me-1"></i> Aplicar</button>
+      </div>
+    </div>
+    <div class="mt-2">
+      <small class="text-muted">Horário local: America/Sao_Paulo {% if filters.db_time_is_utc %}• DB_TIME_IS_UTC=1 (ajuste de fuso aplicado){% endif %}</small>
+    </div>
+  </div>
+</form>
+
+<!-- KPIs -->
+<div class="row g-2 mb-3">
+  <div class="col-6 col-md-4 col-lg-2">
+    <div class="kpi h-100">
+      <div class="label"><i class="bi bi-truck icon"></i>Entregas</div>
+      <div class="value" id="kpiTotalDeliveries">—</div>
+      <div class="hint">No período filtrado</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-4 col-lg-2">
+    <div class="kpi h-100">
+      <div class="label"><i class="bi bi-list-check icon"></i>Itens</div>
+      <div class="value" id="kpiTotalItems">—</div>
+      <div class="hint">Soma (delivery+item)</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-4 col-lg-2">
+    <div class="kpi h-100">
+      <div class="label"><i class="bi bi-weight icon"></i>Peso total (kg)</div>
+      <div class="value" id="kpiTotalWeight">—</div>
+      <div class="hint">Peso único por delivery</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-4 col-lg-2">
+    <div class="kpi h-100">
+      <div class="label"><i class="bi bi-printer icon"></i>Impressões</div>
+      <div class="value" id="kpiPrinted">—</div>
+      <div class="hint">Com log no período</div>
+    </div>
+  </div>
+  <div class="col-6 col-md-4 col-lg-2">
+    <div class="kpi h-100">
+      <div class="label"><i class="bi bi-clock-history icon"></i>Backlog</div>
+      <div class="value" id="kpiBacklog">—</div>
+      <div class="hint">Sem impressão</div>
+    </div>
+  </div>
+</div>
+
+<!-- Gráficos e Ranking -->
+<div class="row g-3">
+  <div class="col-12 col-lg-6">
+    <div class="card h-100">
+      <div class="card-header"><i class="bi bi-bar-chart-line me-1"></i> Entregas por dia</div>
+      <div class="card-body">
+        <div id="chartDeliveriesByDay" class="chart-box"><div class="placeholder">Carregando…</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-6">
+    <div class="card h-100">
+      <div class="card-header"><i class="bi bi-pie-chart me-1"></i> Top clientes (pizza)</div>
+      <div class="card-body">
+        <div id="chartTopCustomersPie" class="chart-box"><div class="placeholder">Carregando…</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <div class="card">
+      <div class="card-header"><i class="bi bi-trophy me-1"></i> Ranking por usuário — faturamentos de HOJE (America/Sao_Paulo)</div>
+      <div class="card-body">
+        <div id="rankEmpty" class="text-muted" style="display:none">Não há faturamentos registrados hoje.</div>
+        <div class="table-responsive">
+          <table id="tblRank" class="table table-sm table-striped align-middle">
+            <thead class="table-light">
+              <tr>
+                <th style="width:60px">#</th>
+                <th>Usuário</th>
+                <th class="text-end">Faturamentos (hoje)</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block body_extra %}
+
+<script>
+    // Dados fornecidos pelo Flask
+    const CHARTS  = {{ charts | tojson }};
+    const KPIS    = {{ kpis   | tojson }};
+    const RANK    = {{ ranking_today | tojson }};
+  
+    // Carrega Google Charts
+    google.charts.load('current', { packages: ['corechart'] });
+  
+    // ---------- Paletas e tema dos gráficos ----------
+    const PALETTE = {
+      light: ['#4F46E5','#22C55E','#F59E0B','#06B6D4','#EF4444','#8B5CF6','#10B981','#F97316'],
+      dark:  ['#A5B4FC','#34D399','#FBBF24','#67E8F9','#FCA5A5','#C4B5FD','#6EE7B7','#FDBA74']
+    };
+  
+    function currentTheme() {
+      return (document.documentElement.getAttribute('data-theme') || 'dark').toLowerCase();
+    }
+  
+    function chartThemeOptions() {
+      const isDark = currentTheme() === 'dark';
+      const textColor      = isDark ? '#E5E7EB' : '#0F172A';
+      const gridlineColor  = isDark ? '#2A3447' : '#E5E7EB';
+      const bgColor        = isDark ? '#0F172A' : '#FFFFFF';
+      const chartAreaColor = isDark ? '#0F172A' : '#FFFFFF';
+  
+      return {
+        // container e área do gráfico
+        backgroundColor: bgColor,
+        chartArea: {
+          backgroundColor: chartAreaColor,
+          left: '10%', top: '10%', width: '80%', height: '70%'
+        },
+        // textos
+        titleTextStyle:   { color: textColor, fontSize: 14, bold: true },
+        legend:           { textStyle: { color: textColor, fontSize: 12 } },
+        hAxis: {
+          textStyle: { color: textColor },
+          gridlines: { color: gridlineColor },
+          baselineColor: gridlineColor,
+          slantedText: true
+        },
+        vAxis: {
+          textStyle: { color: textColor },
+          gridlines: { color: gridlineColor },
+          baselineColor: gridlineColor,
+          minValue: 0
+        },
+        // cores das séries
+        colors: (isDark ? PALETTE.dark : PALETTE.light)
+      };
+    }
+  
+    // ---------- Utilitários ----------
+    function numberFmt(n, decimals = 0) {
+      try {
+        return new Intl.NumberFormat('pt-BR', {
+          minimumFractionDigits: decimals, maximumFractionDigits: decimals
+        }).format(n ?? 0);
+      } catch {
+        return (n ?? 0).toString();
+      }
+    }
+  
+    function drawDashboard() {
+      // KPIs
+      document.getElementById('kpiTotalDeliveries').textContent = numberFmt(KPIS.total_deliveries);
+      document.getElementById('kpiTotalItems').textContent      = numberFmt(KPIS.total_items);
+      document.getElementById('kpiTotalWeight').textContent     = numberFmt(KPIS.total_weight, 2);
+      document.getElementById('kpiPrinted').textContent         = numberFmt(KPIS.printed);
+      document.getElementById('kpiBacklog').textContent         = numberFmt(KPIS.backlog);
+  
+      const theme = chartThemeOptions();
+  
+      // Entregas por dia (Column)
+      (function(){
+        const el = document.getElementById('chartDeliveriesByDay');
+        el.innerHTML = '';
+        if (CHARTS.deliveries_by_day && CHARTS.deliveries_by_day.length > 1) {
+          const data  = google.visualization.arrayToDataTable(CHARTS.deliveries_by_day);
+          const opts  = Object.assign({}, theme, {
+            title: 'Entregas por dia (America/Sao_Paulo)',
+            height: 360,
+            legend: { position: 'none' },
+            // barras com cantos levemente arredondados (efeito)
+            bar: { groupWidth: '60%' }
+          });
+          const chart = new google.visualization.ColumnChart(el);
+          chart.draw(data, opts);
+        } else {
+          el.innerHTML = '<div class="placeholder">Sem dados para o período selecionado.</div>';
+        }
+      })();
+  
+      // Top clientes (Pie)
+      (function(){
+        const el = document.getElementById('chartTopCustomersPie');
+        el.innerHTML = '';
+        if (CHARTS.top_customers_pie && CHARTS.top_customers_pie.length > 1) {
+          const data  = google.visualization.arrayToDataTable(CHARTS.top_customers_pie);
+          const opts  = Object.assign({}, theme, {
+            title: 'Top clientes por entregas',
+            height: 360,
+            pieHole: 0.38,
+            // texto interno claro no dark
+            pieSliceTextStyle: {
+              color: currentTheme() === 'dark' ? '#E5E7EB' : '#0F172A',
+              fontSize: 12
+            },
+            legend: { position: 'right', textStyle: theme.legend.textStyle }
+          });
+          const chart = new google.visualization.PieChart(el);
+          chart.draw(data, opts);
+        } else {
+          el.innerHTML = '<div class="placeholder">Sem dados para o período/cliente selecionado.</div>';
+        }
+      })();
+  
+      // Ranking HOJE (tabela)
+      (function(){
+        const tbody = document.querySelector('#tblRank tbody');
+        tbody.innerHTML = '';
+        if (Array.isArray(RANK) && RANK.length) {
+          RANK.forEach((row, idx) => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+              <td class="text-muted">${idx + 1}</td>
+              <td>${row.user || '—'}</td>
+              <td class="text-end">${numberFmt(row.qtd)}</td>
+            `;
+            tbody.appendChild(tr);
+          });
+          document.getElementById('rankEmpty').style.display = 'none';
+          document.getElementById('tblRank').style.display = 'table';
+        } else {
+          document.getElementById('rankEmpty').style.display = 'block';
+          document.getElementById('tblRank').style.display = 'none';
+        }
+      })();
+    }
+  
+    // Inicializa e eventos de redesenho
+    google.charts.setOnLoadCallback(function () {
+      drawDashboard();
+      window.addEventListener('resize', drawDashboard);
+      window.addEventListener('themechange', () => {
+        // Aguarda leve intervalo para CSS aplicar, depois redesenha
+        setTimeout(drawDashboard, 30);
+      });
+    });
+  </script>
+  
+{% endblock %}

@@ -5,14 +5,17 @@
 <div class="card">
   <div class="card-body">
     <div class="d-flex justify-content-between align-items-center mb-3">
-      <h5 class="card-title mb-0">Deliveries</h5>
-      <a class="btn btn-sm btn-outline-primary" href="{{ url_for('index') }}">Atualizar</a>
+      <h5 class="card-title mb-0"><i class="bi bi-columns-gap me-2"></i>Deliveries</h5>
+      <div class="d-flex gap-2">
+        <a class="btn btn-sm btn-gradient btn-pill" href="{{ url_for('dashboard') }}"><i class="bi bi-speedometer2 me-1"></i> Dashboard</a>
+        <a class="btn btn-sm btn-outline-secondary btn-pill" href="{{ url_for('index') }}"><i class="bi bi-arrow-clockwise me-1"></i> Atualizar</a>
+      </div>
     </div>
 
     {% if deliveries %}
     <div class="table-responsive">
       <table class="table table-sm table-striped align-middle">
-        <thead>
+        <thead class="table-light">
           <tr>
             <th>Delivery</th>
             <th>Ship to customer</th>
@@ -25,34 +28,25 @@
           </tr>
         </thead>
         <tbody>
-        {# Ordem deve bater com a query: d, ship_to_customer, ship_to, peso, created_by, created_at #}
         {% for d, ship_to_customer, ship_to, peso, created_by, created_at in deliveries %}
           <tr>
             <td class="mono">
-              <a href="{{ url_for('delivery_view', delivery_id=d) }}">{{ d }}</a>
+              <a class="text-decoration-none" href="{{ url_for('delivery_view', delivery_id=d) }}">
+                <i class="bi bi-box-seam me-1 text-primary"></i>{{ d }}
+              </a>
             </td>
             <td>{{ ship_to_customer or '' }}</td>
             <td>{{ ship_to or '' }}</td>
+            <td class="text-end"><span class="badge rounded-pill text-bg-secondary">{{ counts.get(d, 0) }}</span></td>
             <td class="text-end">
-              <span class="badge bg-secondary">{{ counts.get(d, 0) }}</span>
-            </td>
-            <td class="text-end">
-              {% if peso is not none %}
-                {{ '%.2f'|format(peso) }}
-              {% else %}
-                <span class="text-muted">—</span>
-              {% endif %}
+              {% if peso is not none %} {{ '%.2f'|format(peso) }} {% else %}<span class="text-muted">—</span>{% endif %}
             </td>
             <td>{{ created_by or '' }}</td>
             <td>
-              {% if created_at %}
-                {{ created_at.strftime('%d/%m/%Y %H:%M:%S') }}
-              {% else %}
-                <span class="text-muted">—</span>
-              {% endif %}
+              {% if created_at %} {{ created_at.strftime('%d/%m/%Y %H:%M:%S') }} {% else %}<span class="text-muted">—</span>{% endif %}
             </td>
             <td class="text-end">
-              <a class="btn btn-sm btn-outline-secondary" href="{{ url_for('delivery_print', delivery_id=d) }}">Imprimir</a>
+              <a class="btn btn-sm btn-outline-secondary btn-pill" href="{{ url_for('delivery_print', delivery_id=d) }}"><i class="bi bi-printer me-1"></i> Imprimir</a>
             </td>
           </tr>
         {% endfor %}
@@ -60,7 +54,7 @@
       </table>
     </div>
     {% else %}
-      <p class="text-muted mb-0">Nenhum delivery encontrado.</p>
+      <div class="text-center text-muted py-4"><i class="bi bi-inboxes me-2"></i>Nenhum delivery encontrado.</div>
     {% endif %}
   </div>
 </div>
